@@ -99,7 +99,7 @@ class MainPage(BasePage):
                 self.bike_option_activity() and
                 self.scooter_option_activity() and
                 self.drive_option_activity())
-w
+
     @allure.step("Заказываем такси с вкладки Быстрый")
     def call_fast_taxi_route(self):
         self.click_route(MainLocators.FAST)
